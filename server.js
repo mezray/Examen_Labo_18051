@@ -18,7 +18,7 @@ let router = require('./routes');
 app.use('/', router);
 
 //pour utilisation sur les serveurs de l'ecam et/ou maison
-app.listen(3000, () => {
+app.listen(80, () => {
     console.log('Running on port 80');
 });
 /*
