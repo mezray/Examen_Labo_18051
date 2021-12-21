@@ -68,7 +68,7 @@ ListeP = [];
             //llet primes = arr1.concat(arr2);
             //lconsole.log("prime" + primes);
             //lres.render('Listing.ejs', {data: {piece: primes[0], total: primes[1]}});
-            res.render('Listing.ejs', {piece: ListeP});
+            res.render('listing.ejs', {piece: ListeP});
         }
     });
 }
