@@ -1,0 +1,44 @@
+body
+{
+    width: 500px;
+    font-family: Arial;
+    font-size: 12px;
+    border: 1px solid lightgrey;
+    padding: 10px;
+}
+.boutton
+{
+    background-color: steelblue;
+    color: white;
+    text-decoration:none;
+    padding: 10px;
+    margin: 10px;
+}
+form  
+{
+    display: table;      
+}
+p
+{ 
+    display: table-row;  
+}
+label 
+{
+    display: table-cell;
+}
+input 
+{
+    display: table-cell;
+}
+.LP
+{
+    margin: 5px;
+    padding: 5px;
+    background-color: lightgrey;
+}
+.LT
+{
+    margin: 5px;
+    padding: 5px;
+    background-color: lightblue;
+}

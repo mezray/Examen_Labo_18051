@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+        <head>
+            
+            <meta charset="utf-8" />
+            <link href= "/public/css/styles.css" rel="stylesheet" type="text/css" />
+            <title>Encodage</title>
+
+        </head>
+
+        <body>
+            <script src="/SurfaceTotal.js"></script> 
+            <h1>Liste des pièces de l'appartement</h1> 
+            <div class="LP">
+            <% piece.forEach(rooms=> { %>
+                <td><%= rooms.name %></td>
+                <td><%= rooms.length %></td>
+                <td><%= rooms.width %></td></br>
+            <% }) %> 
+        </div>
+            <div class="LT">
+                Surface totale: 
+            </div>
+            <form action="/Site" method="post">
+                <button class="boutton" type="submit">Encoder une autre pièce</button>
+            </form>
+        </body>
+
+</html>

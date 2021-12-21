@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+        <head>
+            
+            <meta charset="utf-8" />
+            <link href= "/public/css/styles.css" rel="stylesheet" type="text/css" />
+            <title>Encodage</title>
+
+        </head>
+
+        <body>
+            <script src="/Surface.js"></script> 
+            <h1>Encoder les données de la pièce</h1>
+
+            <form class="form" action="/Site" method="post">
+                <p><label for="name">Pièce :</label>
+                <input type="text" id="name" name="name"></p>
+                <p><label for="width">Largeur :</label>
+                <input type="number" id="width"name="width" min="0"></p>
+                <p><label for="length">Longueur :</label>
+                <input type="number" id="length"name="length" min="0"></p>
+                <button class="boutton" type="submit">Enregistrer</button>
+                <p id="error"></p>
+            </form> 
+            <div>     
+            <button class="boutton" onclick="calcul()">Calculer la surface</button>
+                <p id="surface"></p>
+            </div>
+        </body>
+
+</html>
